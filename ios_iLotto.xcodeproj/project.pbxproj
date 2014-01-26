@@ -14,7 +14,7 @@
 		A1028C4C1893EBEE008F83A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1028C4B1893EBEE008F83A2 /* main.m */; };
 		A1028C501893EBEE008F83A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1028C4F1893EBEE008F83A2 /* AppDelegate.m */; };
 		A1028C531893EBEE008F83A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1028C511893EBEE008F83A2 /* Main.storyboard */; };
-		A1028C561893EBEE008F83A2 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1028C551893EBEE008F83A2 /* FirstViewController.m */; };
+		A1028C561893EBEE008F83A2 /* BigLottoNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1028C551893EBEE008F83A2 /* BigLottoNavController.m */; };
 		A1028C591893EBEE008F83A2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1028C581893EBEE008F83A2 /* SecondViewController.m */; };
 		A1028C5B1893EBEE008F83A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1028C5A1893EBEE008F83A2 /* Images.xcassets */; };
 		A1028C621893EBEE008F83A2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1028C611893EBEE008F83A2 /* XCTest.framework */; };
@@ -22,6 +22,8 @@
 		A1028C641893EBEE008F83A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1028C431893EBEE008F83A2 /* UIKit.framework */; };
 		A1028C6C1893EBEE008F83A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1028C6A1893EBEE008F83A2 /* InfoPlist.strings */; };
 		A1028C6E1893EBEE008F83A2 /* ios_iLottoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1028C6D1893EBEE008F83A2 /* ios_iLottoTests.m */; };
+		A1173AC918955950005CC381 /* BigLottoTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A1173AC818955950005CC381 /* BigLottoTableVC.m */; };
+		A1173AD018955F95005CC381 /* BigLottoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1173ACF18955F95005CC381 /* BigLottoCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +48,8 @@
 		A1028C4E1893EBEE008F83A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A1028C4F1893EBEE008F83A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A1028C521893EBEE008F83A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A1028C541893EBEE008F83A2 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		A1028C551893EBEE008F83A2 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A1028C541893EBEE008F83A2 /* BigLottoNavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BigLottoNavController.h; sourceTree = "<group>"; };
+		A1028C551893EBEE008F83A2 /* BigLottoNavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BigLottoNavController.m; sourceTree = "<group>"; };
 		A1028C571893EBEE008F83A2 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		A1028C581893EBEE008F83A2 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		A1028C5A1893EBEE008F83A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -56,6 +58,11 @@
 		A1028C691893EBEE008F83A2 /* ios_iLottoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ios_iLottoTests-Info.plist"; sourceTree = "<group>"; };
 		A1028C6B1893EBEE008F83A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A1028C6D1893EBEE008F83A2 /* ios_iLottoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_iLottoTests.m; sourceTree = "<group>"; };
+		A1173AC718955950005CC381 /* BigLottoTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigLottoTableVC.h; sourceTree = "<group>"; };
+		A1173AC818955950005CC381 /* BigLottoTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigLottoTableVC.m; sourceTree = "<group>"; };
+		A1173ACB18955BC3005CC381 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		A1173ACE18955F95005CC381 /* BigLottoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigLottoCell.h; sourceTree = "<group>"; };
+		A1173ACF18955F95005CC381 /* BigLottoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigLottoCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +125,13 @@
 				A1028C4E1893EBEE008F83A2 /* AppDelegate.h */,
 				A1028C4F1893EBEE008F83A2 /* AppDelegate.m */,
 				A1028C511893EBEE008F83A2 /* Main.storyboard */,
-				A1028C541893EBEE008F83A2 /* FirstViewController.h */,
-				A1028C551893EBEE008F83A2 /* FirstViewController.m */,
+				A1028C541893EBEE008F83A2 /* BigLottoNavController.h */,
+				A1028C551893EBEE008F83A2 /* BigLottoNavController.m */,
+				A1173AC718955950005CC381 /* BigLottoTableVC.h */,
+				A1173AC818955950005CC381 /* BigLottoTableVC.m */,
+				A1173ACE18955F95005CC381 /* BigLottoCell.h */,
+				A1173ACF18955F95005CC381 /* BigLottoCell.m */,
+				A1173ACB18955BC3005CC381 /* Constant.h */,
 				A1028C571893EBEE008F83A2 /* SecondViewController.h */,
 				A1028C581893EBEE008F83A2 /* SecondViewController.m */,
 				A1028C5A1893EBEE008F83A2 /* Images.xcassets */,
@@ -255,8 +267,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1028C591893EBEE008F83A2 /* SecondViewController.m in Sources */,
+				A1173AD018955F95005CC381 /* BigLottoCell.m in Sources */,
 				A1028C501893EBEE008F83A2 /* AppDelegate.m in Sources */,
-				A1028C561893EBEE008F83A2 /* FirstViewController.m in Sources */,
+				A1028C561893EBEE008F83A2 /* BigLottoNavController.m in Sources */,
+				A1173AC918955950005CC381 /* BigLottoTableVC.m in Sources */,
 				A1028C4C1893EBEE008F83A2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,6 +480,7 @@
 				A1028C731893EBEE008F83A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1028C741893EBEE008F83A2 /* Build configuration list for PBXNativeTarget "ios_iLottoTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +489,7 @@
 				A1028C761893EBEE008F83A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

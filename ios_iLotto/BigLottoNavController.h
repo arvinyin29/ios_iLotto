@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  BigLottoNavController.h
 //  ios_iLotto
 //
 //  Created by Andy on 2014/1/25.
@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface BigLottoNavController : UINavigationController
+
 
 @end

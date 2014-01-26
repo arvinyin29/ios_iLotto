@@ -1,18 +1,18 @@
 //
-//  FirstViewController.m
+//  BigLottoNavController.m
 //  ios_iLotto
 //
 //  Created by Andy on 2014/1/25.
 //  Copyright (c) 2014年 Andy. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "BigLottoNavController.h"
 
-@interface FirstViewController ()
+@interface BigLottoNavController ()
 
 @end
 
-@implementation FirstViewController
+@implementation BigLottoNavController
 
 - (void)viewDidLoad
 {
